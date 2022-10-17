@@ -13,4 +13,4 @@
  //Objetos 
  
  [1,2,3,4]
- { nombre: "Diego" }
+ { nombre: "Diego"}
