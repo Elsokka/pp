@@ -32,3 +32,19 @@ var borrafrutainicio = frutas.unshift("Uvas");
 var frutas = ["manzana", "peras", "bananas", "fresas"];
 var posicion = frutas.indexOf("bananas");
 console.log(posicion)
+
+
+
+//Codigo de playground de platzi
+
+export function solution(arraySecreto) {
+    var valor = arraySecreto[0];
+    var tipo = typeof valor;
+
+    if(tipo === "string"){
+        return true;
+    } else {
+        return false;
+    }
+
+  }
