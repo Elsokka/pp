@@ -16,12 +16,12 @@ var masfrutas = frutas.push("Uvas");
 var frutas = ["manzana", "peras", "bananas", "fresas"];
 var menosfrutas = frutas.pop();
 
-//Agregar a un valor al arrys al inicio del arrays
+//elimina el primer elemento del array y lo retorna. Este método modifica la longitud del array.
 
 var frutas = ["manzana", "peras", "bananas", "fresas"];
-var iniciofruta = frutas.unshift("Uvas");
+var iniciofruta = frutas.shift("Uvas");
 
-//Eliminar elemento en el inicio 
+//agrega uno o más elementos al inicio del array, y devuelve la nueva longitud del array.
 
 var frutas = ["manzana", "peras", "bananas", "fresas"];
 var borrafrutainicio = frutas.unshift("Uvas");
